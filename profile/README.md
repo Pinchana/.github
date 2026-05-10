@@ -1,4 +1,4 @@
-![OssPinchana](https://cdn.xserv.pp.ua/files/images/github/p.png)
+![OssPinchana](https://cdn.xserv.pp.ua/files/images/github/p1.png)
 
 # Пінчана 🐈 (OSS)
 
