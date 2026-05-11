@@ -10,7 +10,7 @@
 [pinchana-server](https://github.com/Pinchana/pinchana-server) - серверний модуль, який відповідає за обробку запитів та маршрутизацію.  
 [pinchana-tiktok](https://github.com/Pinchana/pinchana-tiktok) - модуль для скрапінгу ТікТоку.  
 [pinchana-inst](https://github.com/Pinchana/pinchana-inst) - модуль для скрапінгу Інстаграму.  
-[pinchana-shorts](https://github.com/Pinchana/pinchana-shorts) - модуль для скрапінгу YouTube Shorts
+[pinchana-shorts](https://github.com/Pinchana/pinchana-shorts) - модуль для скрапінгу YouTube Shorts.  
 [pinchana-dlp](https://github.com/Pinchana/pinchana-dlp) - безпечне завантаження YT відео з використанням власних Cookies. (поки що задіяно тільки в закритій версії Pinchana Mobile)
 
 Дякую кожному за підтримку як фінансово та, в майбутньому, за покращення сервісу!
