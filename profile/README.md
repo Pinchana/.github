@@ -11,10 +11,10 @@
 [pinchana-tiktok](https://github.com/Pinchana/pinchana-tiktok) - модуль для скрапінгу ТікТоку.  
 [pinchana-inst](https://github.com/Pinchana/pinchana-inst) - модуль для скрапінгу Інстаграму.  
 [pinchana-shorts](https://github.com/Pinchana/pinchana-shorts) - модуль для скрапінгу YouTube Shorts.  
-[pinchana-shorts](https://github.com/Pinchana/pinchana-ytmusic) - модуль для скрапінгу YouTube Music.  
-[pinchana-shorts](https://github.com/Pinchana/pinchana-spotify) - модуль для скрапінгу Spotify.  
-[pinchana-shorts](https://github.com/Pinchana/pinchana-soundcloud) - модуль для скрапінгу SoundCloud.  
-[pinchana-shorts](https://github.com/Pinchana/pinchana-deezer) - модуль для скрапінгу Deezer.  
+[pinchana-ytmusic](https://github.com/Pinchana/pinchana-ytmusic) - модуль для скрапінгу YouTube Music.  
+[pinchana-spotify](https://github.com/Pinchana/pinchana-spotify) - модуль для скрапінгу Spotify.  
+[pinchana-soundcloud](https://github.com/Pinchana/pinchana-soundcloud) - модуль для скрапінгу SoundCloud.  
+[pinchana-deezer](https://github.com/Pinchana/pinchana-deezer) - модуль для скрапінгу Deezer.  
 [pinchana-dlp](https://github.com/Pinchana/pinchana-dlp) - безпечне завантаження YT відео з використанням власних Cookies. (поки що задіяно тільки в закритій версії Pinchana Mobile)
 
 Дякую кожному за підтримку як фінансово та, в майбутньому, за покращення сервісу!
