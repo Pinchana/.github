@@ -3,7 +3,7 @@
 # Пінчана 🐈 (OSS)
 
 **Пінчана** тепер частково відкрита для кожного!  
-Цей профіль містить відкритий код до бекенду який використовується для скрапінгу **ТікТоку**, **Інстаграму** та **YouTube Шортсів**, та прямо зараз використовується в **Пінчані**.
+Цей профіль містить відкритий код до бекенду який використовується для скрапінгу **ТікТоку**, **Інстаграму**, **YouTube Шортсів**, **YouTube Музики**, **Spotify**, **SoundCloud** та **Deezer**, та прямо зараз використовується в **Пінчані**.
 
 [pinchana-api](https://github.com/Pinchana/pinchana-api) - великий докер контейнер котрий збирає в собі всі частини серверу та модулів скрапінгу.  
 [pinchana-core](https://github.com/Pinchana/pinchana-core) - основа (база) для всіх сервісів та модулів, містить спільні функції та структури.  
@@ -11,6 +11,10 @@
 [pinchana-tiktok](https://github.com/Pinchana/pinchana-tiktok) - модуль для скрапінгу ТікТоку.  
 [pinchana-inst](https://github.com/Pinchana/pinchana-inst) - модуль для скрапінгу Інстаграму.  
 [pinchana-shorts](https://github.com/Pinchana/pinchana-shorts) - модуль для скрапінгу YouTube Shorts.  
+[pinchana-shorts](https://github.com/Pinchana/pinchana-ytmusic) - модуль для скрапінгу YouTube Music.  
+[pinchana-shorts](https://github.com/Pinchana/pinchana-spotify) - модуль для скрапінгу Spotify.  
+[pinchana-shorts](https://github.com/Pinchana/pinchana-soundcloud) - модуль для скрапінгу SoundCloud.  
+[pinchana-shorts](https://github.com/Pinchana/pinchana-deezer) - модуль для скрапінгу Deezer.  
 [pinchana-dlp](https://github.com/Pinchana/pinchana-dlp) - безпечне завантаження YT відео з використанням власних Cookies. (поки що задіяно тільки в закритій версії Pinchana Mobile)
 
 Дякую кожному за підтримку як фінансово та, в майбутньому, за покращення сервісу!
