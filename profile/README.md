@@ -15,4 +15,8 @@
 
 Дякую кожному за підтримку як фінансово та, в майбутньому, за покращення сервісу!
 
-[[Пінчана 🐈](https://s.co.ua/pinchana)] [[Задонатити](https://xxanqw.pp.ua/donate)] [[Patreon](https://www.patreon.com/xxanqw/membership)]
+<div align=center>
+  
+[ [Пінчана 🐈](https://s.co.ua/pinchana) ] [ [Задонатити](https://xxanqw.pp.ua/donate) ] [ [Patreon](https://www.patreon.com/xxanqw/membership) ]
+
+</div>
