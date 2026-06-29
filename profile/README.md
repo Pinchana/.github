@@ -9,7 +9,7 @@
 [pinchana-core](https://github.com/Pinchana/pinchana-core) - основа (база) для всіх сервісів та модулів, містить спільні функції та структури.  
 [pinchana-server](https://github.com/Pinchana/pinchana-server) - серверний модуль, який відповідає за обробку запитів та маршрутизацію.  
 [pinchana-tiktok](https://github.com/Pinchana/pinchana-tiktok) - модуль для скрапінгу ТікТоку.  
-[pinchana-inst](https://github.com/Pinchana/pinchana-inst) - модуль для скрапінгу Інстаграму. 
+[pinchana-inst](https://github.com/Pinchana/pinchana-inst) - модуль для скрапінгу Інстаграму.  
 [pinchana-threads](https://github.com/Pinchana/pinchana-threads) - модуль для скрапінгу Threads.  
 [pinchana-shorts](https://github.com/Pinchana/pinchana-shorts) - модуль для скрапінгу YouTube Shorts.  
 [pinchana-ytmusic](https://github.com/Pinchana/pinchana-ytmusic) - модуль для скрапінгу YouTube Music.  
