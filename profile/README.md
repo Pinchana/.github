@@ -20,7 +20,9 @@
 
 ## Документація
 
-[pinchana-docs](https://github.com/Pinchana/pinchana-docs) — офіційна документація для Pinchana Web і Pinchana API, побудована на Astro Starlight. Доступна на [docs.pinchana.cc](https://docs.pinchana.cc).
+[pinchana-docs](https://github.com/Pinchana/pinchana-docs) — офіційна документація для Pinchana Web і Pinchana API, побудована на Astro Starlight.
+
+**Доступна на:** [docs.pinchana.cc](https://docs.pinchana.cc).
 
 ## Компоненти та модулі
 
