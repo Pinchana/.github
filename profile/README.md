@@ -2,7 +2,7 @@
 
 # Пінчана 🐈 (OSS)
 
-**Пінчана** — відкрита платформа для завантаження медіа з TikTok, Instagram, YouTube Shorts, YouTube Music, Spotify, SoundCloud, Deezer, Threads, Twitter/X та інших сервісів. Тут зібрані офіційний вебклієнт, API, документація й окремі модулі, які працюють у Пінчані.
+**Пінчана** — відкрита платформа для завантаження медіа з TikTok, Instagram, YouTube Shorts, YouTube Music, Spotify, SoundCloud, Deezer, Threads, Twitter/X та інших сервісів. Тут зібрані офіційний вебклієнт, API та документація Пінчани.
 
 ## Головні проєкти
 
@@ -14,7 +14,7 @@
 
 ### [pinchana-api](https://github.com/Pinchana/pinchana-api)
 
-Основний Docker Compose-стек Пінчани: FastAPI-шлюз автоматично визначає платформу та передає запит спеціалізованому модулю. Репозиторій об'єднує сервер, скрапери, кешування, VPN-маршрутизацію та готові Docker-образи.
+Монорепозиторій Пінчани зі шлюзом FastAPI, скраперами, спільним кодом, DLP і конфігурацією Docker Compose. Шлюз визначає платформу та викликає відповідний скрапер у своєму процесі. Усі компоненти API зберігаються як звичайні каталоги, тому для отримання всього коду достатньо `git clone`.
 
 **API:** [api.pinchana.cc](https://api.pinchana.cc)
 
@@ -24,21 +24,14 @@
 
 **Доступна на:** [docs.pinchana.cc](https://docs.pinchana.cc).
 
-## Компоненти та модулі
+## Компоненти API
 
-[pinchana-core](https://github.com/Pinchana/pinchana-core) — спільні моделі, утиліти та базова логіка для сервісів Пінчани.  
-[pinchana-server](https://github.com/Pinchana/pinchana-server) — центральний API-шлюз, маршрутизація запитів і керування модулями.  
-[pinchana-tiktok](https://github.com/Pinchana/pinchana-tiktok) — модуль для TikTok.  
-[pinchana-inst](https://github.com/Pinchana/pinchana-inst) — модуль для Instagram.  
-[pinchana-threads](https://github.com/Pinchana/pinchana-threads) — модуль для Threads.  
-[pinchana-shorts](https://github.com/Pinchana/pinchana-shorts) — модуль для YouTube Shorts.  
-[pinchana-ytmusic](https://github.com/Pinchana/pinchana-ytmusic) — модуль для YouTube Music.  
-[pinchana-spotify](https://github.com/Pinchana/pinchana-spotify) — модуль для Spotify.  
-[pinchana-soundcloud](https://github.com/Pinchana/pinchana-soundcloud) — модуль для SoundCloud.  
-[pinchana-deezer](https://github.com/Pinchana/pinchana-deezer) — модуль для Deezer.  
-[pinchana-twitter](https://github.com/Pinchana/pinchana-twitter) — модуль для Twitter/X.  
-[pinchana-pinterest](https://github.com/Pinchana/pinchana-pinterest) — окремий сервіс для завантаження медіа з Pinterest-пінів.  
-[pinchana-dlp](https://github.com/Pinchana/pinchana-dlp) — захищений асинхронний сервіс приватних завантажень для Pinchana Web.
+- [Шлюз FastAPI](https://github.com/Pinchana/pinchana-api/tree/main/pinchana-server) маршрутизує запити та віддає медіа з кешу.
+- [Спільний код](https://github.com/Pinchana/pinchana-api/tree/main/pinchana-core) містить моделі, кешування, музичні утиліти та керування VPN.
+- [Скрапери](https://github.com/Pinchana/pinchana-api#supported-modules) встановлюються в один образ зі шлюзом. У списку наведені підтримувані джерела та маршрути.
+- [DLP](https://github.com/Pinchana/pinchana-api/tree/main/pinchana-dlp) — додатковий сервіс приватних завантажень з ізольованими воркерами.
+
+[pinchana-pinterest](https://github.com/Pinchana/pinchana-pinterest) — окремий сервіс для завантаження медіа з Pinterest-пінів.
 
 Дякуємо кожному, хто підтримує проєкт фінансово, користується ним і допомагає робити Пінчану кращою 💚
 
